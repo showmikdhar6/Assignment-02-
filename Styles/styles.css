@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'miamaregular';
+    src: url('miama.regular-webfont.woff2') format('woff2'),
+         url('miama.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.bg-gradient{
+    background: linear-gradient(180deg, #313131 0%, rgba(119, 119, 119, 0.00) 100%);
+  }
+
+  /* Shared Styles */
+
+.display-flex{
+    display: flex;
+}
+
+.section-title{
+    max-width: 670px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFF;
+    text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 57.6px */
+    margin-bottom: 14px;
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    max-width: 670px;
+    margin-bottom: 60px;
+}
+
+.text-light-grey{
+    color: rgba(255, 255, 255, 0.50);
+
+}
+
+.habits-info{
+margin-left: 385px;
+margin-right: 385px;
+}
+
+
+
+/* navbar related styles */
+
+.navbar{
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+   }
+   
+   .nav-items{
+       list-style: none;
+       margin-right: 47px;
+   }
+
+   .nav-link{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    text-decoration: none;
+
+}
+
+.nav-links{
+    border-radius: 39px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    gap: 47px;
+        
+}
+.button-home{
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 46px;
+    background: #E6533C;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    text-decoration: none;
+}
+
+/* Banner related Styles */
+.brand-name{
+    color: #E6533C;
+    font-family:'Inter';
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+}
+.banner{
+    margin: auto;
+    max-width: 1440px;
+    justify-content: space-between;
+    
+}
+
+.healthy{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    margin-bottom: 28px;
+    margin-top: 5px;
+}
+.banner-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    margin-bottom: 2%;
+}
+
+.banner-content{
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+
+
+.shape{
+    color: #FFF;
+    font-family: miamaregular;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.btn-primary{
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    background: #E6533C;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 14px;
+    }
+
+    .btn-secondary{
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 42px;
+    border: 1px solid #FFF;
+    background: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    }
+
+    .circle{
+        width: 40px;
+        height: 40px;
+        background-color: #ff5733;
+        border-radius: 50%;
+        margin-left: 23px;
+
+    }
+
+    .badge-1{
+    display: inline-flex;
+    align-items: center;
+    width: 206px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    text-align: left;
+    }
+
+    .badge-2{
+    width: 193px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    text-align: left;
+    }
+
+
+    .feature-number{
+    color: var(--Text-1, #FAFAF9);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+    }
+
+    .feature-number-2{
+        color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; 
+    letter-spacing: 1px;
+    }
+
+    .Video{
+        display: flex;
+        flex-direction: column;
+        color: var(--Text-2, rgba(239, 237, 232, 0.65));
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        margin-top: 8px;
+
+    }
+
+    .Video-2{
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        letter-spacing: 1px;
+    }
+    .text{
+        margin-left: 12px;
+    }
+
+    .text-2{
+        margin-left: 24px;
+    }
+
+    .header-picture{
+        width: 349px;
+        height: 580px;
+        flex-shrink: 0;
+        margin-right: 90px;
+    }
+
+    
+/* mains styles */
+main{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bg-main{
+    background: #000;
+}
+
+/* Habit-related style */
+.habit-name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    margin-bottom: 1px;
+
+}
+
+.habit-description{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.3px;
+    width: 231px;
+    margin-top: 6px;
+
+}
+
+.habit{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    }
+
+.image-container{
+    border: 4px solid #191919;
+    border-radius: 100px;
+}
+.habits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Extra-Mile-cards-container{
+    padding: 30px 32px 29px 54px;
+    border-radius: 18px;
+    background: #222;
+    width: 1060px;
+    margin: auto;
+
+
+}
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    gap: 165px;
+}
+
+.card-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 57.6px */
+    width: 443px;
+    margin-bottom: 14px;
+    margin-top: 41px;
+
+}
+
+.card-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+    width: 443px;
+}
+
+.card-image{
+
+    
+}
