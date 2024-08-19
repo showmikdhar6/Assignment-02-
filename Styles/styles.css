@@ -334,12 +334,16 @@ margin-bottom: 60px;
         margin-right: 90px;
     }
 
+    margin: auto;
+    max-width: 1440px;
     
 /* mains styles */
 main{
     max-width: 1440px;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 main section{
@@ -381,6 +385,8 @@ main section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 500px;
+
 
     }
 
@@ -391,7 +397,10 @@ main section{
 .habits-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    width: 1440px;
+    margin: auto;
     gap: 40px;
+
 }
 
 .Extra-Mile-cards-container{
@@ -399,7 +408,8 @@ main section{
     border-radius: 18px;
     background: #222;
     padding: 30px 32px 29px 54px;
-    /* margin: auto; */
+    width: 1440px;
+    margin: auto;
 
 }
 
@@ -485,6 +495,7 @@ main section{
 .calculator-info{
 
     margin-bottom: 90px;
+    
 }
 
 #secondary-background{
@@ -614,13 +625,13 @@ section input[placeholder="Select an activity factor"]{
 .bmi-section{
     display: flex;
     gap:200px;
-    margin-left: 190px;
+    margin: auto;
+    max-width: 1440px;
 }
 
 .Teams{
     max-width: 1440px;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin: auto;
     
 
 }
@@ -646,8 +657,7 @@ section input[placeholder="Select an activity factor"]{
     background: rgba(255, 255, 255, 0.10);
     padding: 20px;
     max-width: 1440px;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin: auto;
 
 }
 
@@ -662,6 +672,7 @@ section input[placeholder="Select an activity factor"]{
 .team{
     align-items: center;
     justify-content: center;
+
     /* text-align: center; */
 
     }
@@ -670,6 +681,7 @@ section input[placeholder="Select an activity factor"]{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
 }
 
 .trainer-name{
@@ -679,8 +691,9 @@ section input[placeholder="Select an activity factor"]{
     font-style: normal;
     font-weight: 900;
     line-height: 120%; /* 24px */
-    margin-bottom: 5px;
     position: absolute;
+    margin-right: 20px;
+  
 
 
 }
@@ -692,11 +705,14 @@ section input[placeholder="Select an activity factor"]{
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 16.8px */
-    margin-top: 5px;
     position: absolute;
+
 
 }
 
 .trainer-content{
     position: relative;
 }
+
+
+sadasjhdhasdaskjdads
