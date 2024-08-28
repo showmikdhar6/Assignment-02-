@@ -98,6 +98,12 @@ margin-bottom: 60px;
     gap: 47px;
         
 }
+
+.hamburger-icon{
+display: none;
+}
+
+
 .button-home{
     display: flex;
     padding: 8px 20px;
@@ -185,8 +191,8 @@ margin-bottom: 60px;
 }
 
 .btn-primary{
-    width: 224px;
-    padding: 16px 40px;
+
+    padding: 16px 32px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -201,9 +207,10 @@ margin-bottom: 60px;
     line-height: 22px;
     margin-right: 14px;
     }
+
     .btn-primary-2{
         width: 224px;
-        padding: 16px 40px;
+        padding: 16px 32px;
         justify-content: center;
         align-items: flex-start;
         gap: 10px;
@@ -221,8 +228,7 @@ margin-bottom: 60px;
     }
 
     .btn-secondary{
-    width: 224px;
-    padding: 16px 40px;
+    padding: 16px 30px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
@@ -258,8 +264,8 @@ margin-bottom: 60px;
     backdrop-filter: blur(10px);
     text-align: left;
     position: absolute;
-    top: 60%;
-    left: 10%;
+    top: 70%;
+    right: 80%;
 
     }
 
@@ -273,6 +279,8 @@ margin-bottom: 60px;
     backdrop-filter: blur(10px);
     text-align: left;
     position: absolute;
+    top: 25%;
+    left: 55%;
     }
 
 
@@ -510,6 +518,7 @@ main section{
     font-weight: 900;
     line-height: 120%; /* 33.6px */
     margin-bottom: 14px;
+    margin-top: 55px;
 
 }
 
@@ -627,6 +636,7 @@ section input[placeholder="Select an activity factor"]{
     gap:200px;
     margin: auto;
     max-width: 1440px;
+
 }
 
 .Teams{
@@ -695,7 +705,7 @@ section input[placeholder="Select an activity factor"]{
 .Main-title{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 900;
     line-height: 120%; /* 24px */
@@ -705,9 +715,153 @@ section input[placeholder="Select an activity factor"]{
 .trainer-title{
     color: rgba(255, 255, 255, 0.523);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-style: medium;
     font-weight: 400;
     line-height: 120%; /* 16.8px */
     margin-top: 3px;
+}
+
+.footer-background{
+    background:#181818;
+}
+
+.footer-section{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 220px;
+    margin-bottom: 80px;
+
+}
+
+.footer-section-2{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.footer-brand-name{
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%; /* 84px */
+    margin-bottom: 10px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    align-self: stretch;
+    width: 443px;
+
+}
+
+.about-us{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+}
+.about-us-subtitle{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+
+
+.rights{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.3px;
+    margin-top: 36px;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+    .navbar{
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+    margin: 20px;
+    }
+
+.nav-links{
+    display: none;
+
+}
+
+.hamburger-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.banner{
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.hero-banner-content{
+margin: 20px;
+
+}
+
+.badge-1{
+    top: 40%;
+    left: -5%;
+
+}
+
+.badge-2{
+    top: 5%;
+    left: 50%;
+
+}
+
+
+.Habits{
+margin: 20px;
+}
+
+
+.section-title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
+
+}
+
+.section-description{
+    width: 316px;
+}
+
+
+
+
 }
