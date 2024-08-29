@@ -227,6 +227,29 @@ display: none;
 
     }
 
+    .btn-primary-3{
+        width: 224px;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 42px;
+        background: #E6533C;
+        border: none;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        margin-bottom: 52px;
+
+    }
+
+
+
+
+
     .btn-secondary{
     padding: 16px 30px;
     justify-content: center;
@@ -855,6 +878,10 @@ margin: 20px;
     width: 316px;
 }
 
+.section-description-2{
+    width: 316px;
+}
+
 .habits-container {
     display: flex;
     flex-direction: column;
@@ -904,11 +931,11 @@ margin: 20px;
 
 }
 
-.btn-primary-2{
+.btn-primary-3{
     display: flex;
     padding: 16px 40px;
-    justify-content: center;
-    align-items: flex-start;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
     gap: 10px;
     align-self: stretch;
     margin-left:70px;
@@ -929,12 +956,12 @@ margin: 20px;
     font-style: normal;
     font-weight: 900;
     line-height: 120%; /* 38.4px */
-    margin: 20px;
-    width: 576px;
+    margin: auto;
+    width: 393px;
 }
 
 .calculator-description{
-    width: 353px;
+    width: 393px;
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
     font-size: 14px;
@@ -942,10 +969,61 @@ margin: 20px;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.3px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 14px;
+
 
 
 }
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+
+}
+
+
+.bmi-calculator{
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+
+}
+
+.bmi-section{
+    width: 393px;
+    flex-direction: column;
+    gap: 42px   
+}
+
+.calculator-description-2{
+    margin-top: 5px;
+}
+
+section input[type="text"]{
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+}
+
+section input[type="text-2"]{
+    width: 380px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+}
+
+
 
 
 }
