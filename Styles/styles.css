@@ -394,7 +394,7 @@ main section{
     justify-content: center;
     text-align: center;
     gap: 500px;
-
+    display: flex;
 
     }
 
@@ -402,6 +402,8 @@ main section{
     border: 4px solid #191919;
     border-radius: 100px;
 }
+
+
 .habits-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -501,7 +503,7 @@ main section{
 }
 
 .calculator-info{
-
+    margin-top: 90px;
     margin-bottom: 90px;
     
 }
@@ -639,13 +641,6 @@ section input[placeholder="Select an activity factor"]{
 
 }
 
-.Teams{
-    max-width: 1440px;
-    margin: auto;
-    margin-top: 90px;
-    
-
-}
 
 .section-description-2{
     color: rgba(255, 255, 255, 0.50);
@@ -799,10 +794,9 @@ section input[placeholder="Select an activity factor"]{
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
-    .navbar{
+.navbar{
     display: flex;
     justify-content: space-between; 
-    margin: auto;
     margin: 20px;
     }
 
@@ -861,7 +855,97 @@ margin: 20px;
     width: 316px;
 }
 
+.habits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
+}
+
+.habit {
+    margin-bottom: 30px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Extra-Mile-cards-container {
+    padding: 20px;
+    width: 393px;
+}
+
+.card{
+    flex-direction: column; 
+    gap: 20px; 
+
+}
+
+.card-title {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    margin-left:70px;
+    
+}
+
+.card-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    width: 287px ;
+    margin-left:70px;
+
+}
+
+.btn-primary-2{
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    margin-left:70px;
+    margin-bottom: 20px;
+
+}
+
+.card-image{
+    max-width: 100%
+}
+
+
+.calculator-title{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 38.4px */
+    margin: 20px;
+    width: 576px;
+}
+
+.calculator-description{
+    width: 353px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.3px;
+    margin: 20px;
+
+
+}
 
 
 }
